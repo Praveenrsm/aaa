@@ -1,0 +1,34 @@
+configure IIS 
+i.Search turn windows feature and enable the iss features.
+ii.Install iis (https://iis-umbraco.azurewebsites.net/downloads/microsoft/url-rewrite).
+
+Install sql server management system
+Guide(https://www.e2enetworks.com/blog/how-to-install-ms-sql-server-2019-express-edition-on-windows-server-2016-19)
+i.server name ->select
+ii.encrytion->optional and enable trust server certification
+iii.IN-6YYZFY3->right click select properties->select windows and sql both
+iv.security select login and select properties->enable and 
+v.database->can create database and give to permission for the user.
+
+connect bitbucket
+1.file explorer->cmd->git clone bitbucket path
+2.open in vs
+
+install application by choco:
+
+set-executionpolicy unrestricted
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]:: SecurityProtocol = [System.Net.ServicePointManager]:: SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+choco install googlechrome
+choco install notepadplusplus.install
+choco install netfx-4.8-devpack
+choco install sql-server-express
+choco install sql-server-management-studio
+choco install visualstudio2019professional
+choco install nodejs --version=18.15.0
+choco install vscode
+choco install javaruntime
+Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2 -InstallationPolicy Trusted 
+Install-Module -Name SitecoreInstallFramework -RequiredVersion 2.3.0
+Import-Modue -Name SitecoreInstallFramework -Force -RequiredVersion 2.3.0
+choco feature disable -n=allowGlobalConfirmation
