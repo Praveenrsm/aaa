@@ -1,0 +1,33 @@
+Sitecore Certification Details:
+        1.sitecore Structure and platform -6
+        2.Security and management.-8
+        3.Item Management -10
+        4.Layout and placeholders -5
+        5.Components.Layouts and renderings -13
+        6.Sitecore content serilialization -5
+        7.Containers -3
+sitecore error finding question.
+sitecore cli,docker,asp.net rendering sdk-around 15 questions.
+shared and final rendering
+->content editors(edit content),unpublished and published content in master(cm environment)
+->published and live servers in web (CD environment)
+->sitecore settings,configurations in core
+->publishing wizard in content editor,experience editor,sitecore desktop 
+->Token -$name,$id,$date,time,now,parientid,parentname
+->standard value -default value for field,fallback value when field is null.best practice is add presentation details.
+->Inheritance(Not completed)
+->sitecore mvc concepts(View layout and rendering in .cshtml file) add the path in layout and redering
+placeholderKey
+static and dynamic rendering
+static -> these are components that do not change across different pages or views. eg:- Header an footer remains same for all pages.
+dynamic -> These components change based on user interaction, routing, or data. eg:product component,banner,etc:... useful in personalization.
+
+->configure rendering datasource location to restrict content editors to select content from a specific location in the content tree.
+->configure datasource template to filter content items based on a template
+
+->Insert Options
+->shared content between sites- shared content should be stored outside of any one's site's content tree structure.
+->static vs dynamic placeholder- static is 
+
+
+

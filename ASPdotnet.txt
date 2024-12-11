@@ -1,0 +1,23 @@
+Interview Questions:
+currently using version c# 12 and .net 8
+value type is int,char,float,double(stack memory) and reference type is string,class(heap memory)
+abstract vs interface,overloading vs overriding polymorphism
+access modifier->public,private(scope),protected,internal(same assembly(into a project))
+which is running the memory like clr in runtime(ans.garbage collector)
+jit(just in time compiler)->it will translate il code(byte code) to native machine code(intermediate languagecode to native code) also called common language runtime(CLR)
+Flow:
+1.C# Source Code → Compiled into → IL-Intermediate Language (Bytecode) → Stored in .dll or .exe.IL(Bytecode file name execute in exe or dll).
+2.At runtime, IL (Bytecode)->Common Language Runtime(CLR) it loads the .exe or .dll file → Passed to the JIT compiler → Compiled into → Native Machine Code → Executed by the CPU.
+
+.Net o .net ore->after .net 5-> all core projects,cross platform,open source(which means source code of a project is openly available)
+.Net Framework->asp.net,asp.net web api like that not core,only windows ,it's a legacy site(outdated)
+asp.net->
+
+Async/await ->     responsive,scalability,readable,thread to use
+async ->       Applied to a method to indicate it contains asynchronous operations.
+await->      Allows the use of await inside the method.
+Where async,await needs important:
+        multithread(task,thread),linq query,api calls
+
+Multithread:
+

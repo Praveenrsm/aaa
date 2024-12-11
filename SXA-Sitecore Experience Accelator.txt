@@ -1,0 +1,4 @@
+SXA-Sitecore Experience Accelator:
+It is main purpose for content Authors to build pages without development skills.
+To add a Component to a page by adding rendering using placeholder in experience editor.
+
